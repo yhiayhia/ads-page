@@ -8,32 +8,16 @@ html{
   background:-o-linear-gradient(#EE82EE,#FF1493);
   background:-ms-linear-gradient(#EE82EE,#FF1493);
   background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+
 }
 body {
   margin: 0;
-
-}
-
-@media only screen and (max-width: 375px){
-  .social_icon{
-  font-size: 30px;
-  color: violet;
-  float: right;
-  margin-right: 20px;
-  margin-top: 30px;
-  text-decoration: none;
-}
-
-.social_icon:hover{
-  color: #FF1493;
-}
-  #ads{
-  height: 90px;
   width: 100%;
-  border:1px solid;
-  float: left;
-  border-color:#EE82EE; 
-}
+  height: 100%;
+  overflow-x: hidden;
 
 }
 
@@ -105,6 +89,30 @@ a{
 .ftlink:hover{
   color: #EE82EE;
   text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 375px){
+.social_icon{
+  font-size: 30px;
+  color: violet;
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.social_icon:hover{
+  color: #FF1493;
+}
+  #ads{
+  height: 90px;
+  width: 768px;
+  border:1px solid;
+  float: left;
+  border-color:#EE82EE; 
+}
+
 }
 
 
