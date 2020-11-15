@@ -1,3 +1,7 @@
+@font-face{
+  font-family: 'kufi';
+  src:url('NotoKufiArabic-Regular.ttf')format('truetype');
+}
 html{
   background:-webkit-linear-gradient(#EE82EE,#FF1493);
   background:-moz-linear-gradient(#EE82EE,#FF1493);
@@ -51,7 +55,7 @@ nav{
   margin-top: 10px;
   color: white;
   font-size: 20px;
-  font-family: "Noto Kufi Arabic", "Open Sans", sans-serif;
+  font-family: "kufi", "Open Sans", sans-serif;
   padding-right: 1%;
   direction: rtl;
 
@@ -65,7 +69,7 @@ footer{
   width: 100%;
   background-color: white;
   height: 30px;
-  font-family: "Noto Kufi Arabic", "Open Sans", sans-serif;
+  font-family: "kufi", "Open Sans", sans-serif;
   font-size: 20px;
   text-align: center;
   color:#EE82EE;
