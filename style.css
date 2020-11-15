@@ -113,6 +113,17 @@ a{
   border-color:#EE82EE; 
 }
 
+#text{
+  text-align: right;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: "kufi",sans-serif;
+  padding-right: 3%;
+  direction: rtl;
+
+}
+
 }
 
 
