@@ -14,6 +14,29 @@ body {
 
 }
 
+@media only screen and (max-width: 375px){
+  .social_icon{
+  font-size: 30px;
+  color: violet;
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.social_icon:hover{
+  color: #FF1493;
+}
+  #ads{
+  height: 90px;
+  width: 768px;
+  border:1px solid;
+  float: left;
+  border-color:#EE82EE; 
+}
+
+}
+
 nav{
   height: 90px;
   width: 100%;
@@ -34,9 +57,9 @@ nav{
   float: left;
   border-color:#EE82EE; 
 }
-#icons-container{
+/*#icons-container{
   margin-left: 3%;
-}
+}*/
 .social_icon{
   font-size: 30px;
   color: violet;
@@ -55,7 +78,7 @@ nav{
   margin-top: 10px;
   color: white;
   font-size: 20px;
-  font-family: "kufi", "Open Sans", sans-serif;
+  font-family: "kufi",sans-serif;
   padding-right: 1%;
   direction: rtl;
 
@@ -68,8 +91,8 @@ ul{
 footer{
   width: 100%;
   background-color: white;
-  height: 30px;
-  font-family: "kufi", "Open Sans", sans-serif;
+  height: 100%;
+  font-family: "kufi",sans-serif;
   font-size: 20px;
   text-align: center;
   color:#EE82EE;
