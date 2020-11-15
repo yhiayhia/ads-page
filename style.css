@@ -1,0 +1,97 @@
+html{
+  background:-webkit-linear-gradient(#EE82EE,#FF1493);
+  background:-moz-linear-gradient(#EE82EE,#FF1493);
+  background:-o-linear-gradient(#EE82EE,#FF1493);
+  background:-ms-linear-gradient(#EE82EE,#FF1493);
+  background-repeat: no-repeat;
+}
+body {
+  margin: 0;
+
+}
+
+nav{
+  height: 90px;
+  width: 100%;
+  background-color: white;
+}
+
+#logo{
+  width: 70px;
+  height: 80px;
+  float: right;
+  margin-right: 3%;
+}
+
+#ads{
+  height: 90px;
+  width: 768px;
+  border:1px solid;
+  float: left;
+  border-color:#EE82EE; 
+}
+#icons-container{
+  margin-left: 3%;
+}
+.social_icon{
+  font-size: 30px;
+  color: violet;
+  float: right;
+  margin-right: 2%;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.social_icon:hover{
+  color: #FF1493;
+}
+
+#text{
+  text-align: right;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: "Noto Kufi Arabic", "Open Sans", sans-serif;
+  padding-right: 1%;
+  direction: rtl;
+
+}
+
+ul{
+  list-style-type: circle;
+}
+
+footer{
+  width: 100%;
+  background-color: white;
+  height: 100px;
+  font-family: "Noto Kufi Arabic", "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color:#EE82EE;
+}
+
+a{
+  text-decoration: none;
+}
+
+.ftlink:hover{
+  color: #EE82EE;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
